@@ -187,5 +187,4 @@ state << x_delay, y_delay, psi_delay, v_delay, cte_delay, epsi_delay;
 ## Timestep Length and Elapsed Duration (N & dt)
 The number of points(N) and the time interval(dt) are chosen by trial and error. N and dt define the prediction horizon. Finally I choose N = 10 and dt = 0.01 and it works well.
 
-
-
+The number of points impacts the perfomance, because it needs more computation time. The smaller dt makes it high resolution and the results seems to be accurate. 
